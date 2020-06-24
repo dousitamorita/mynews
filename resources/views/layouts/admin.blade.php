@@ -43,7 +43,7 @@
                         <ul class="navbar-nav mr-auto">
 
                         </ul>
-<!-- Right Side Of Navbar -->
+                        <!-- Right Side Of Navbar -->
                         <ul class="navbar-nav ml-auto">
 
                         {{-- 以下を追記 --}}

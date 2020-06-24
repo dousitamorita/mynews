@@ -1,17 +1,3 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title></title>
-    </head>
-    <body>
-        <h1></h1>
-    </body>
-</html>
-
 {{-- layouts/profile.blade.phpを読み込む --}}
 @extends('layouts.profile')
 
@@ -38,7 +24,7 @@
                     <div class="form-group row">
                         <label class="col-md-2">名前</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" name="namae" value="{{ old('namae') }}"/>
+                            <input type="text" class="form-control" name="name" value="{{ old('name') }}"/>
                         </div>
                     </div>
                     <div class="form-group row">
@@ -56,7 +42,7 @@
                     <div class="form-group row">
                         <label class="col-md-2">自己紹介</label>
                         <div class="col-md-10">
-                        <textarea class="form-control" name="introdction" rows="15">{{ old('introdction') }}</textarea>
+                        <textarea class="form-control" name="introduction" rows="15">{{ old('introduction') }}</textarea>
                         </div>
                     </div>
                     {{ csrf_field() }}
