@@ -19,7 +19,7 @@
                                 <li>{{ $e }}</li>
                             @endforeach
                         </ul>
-                    @emdif
+                    @endif
                     <div class="form-group row">
                         <label class="col-md-2" for="name">名前</label>
                         <div class="col-md-10">
@@ -47,7 +47,7 @@
                     <div class="form-group row">
                         <div class="col-md-10">
                             <input type="hidden" name="id" value="{{ $profile_form->id }}">
-                            {{ csrf_fild() }}
+                            {{ csrf_field() }}
                             <input type="submit" class="btn btn-primary" value="更新">
                         </div>
                     </div>
